@@ -1,0 +1,176 @@
+
+*{
+    box-sizing:border-box;
+  }
+  
+  
+body {
+    margin:0 ;
+    padding: 0;
+    background-color: red;
+    font-family: sans-serif;
+} 
+
+.container {
+    
+    margin:0 auto;
+    max-width: 425px;
+    background-image: url("../Kitchening./images/bg-body.png")
+    
+}
+
+.logo{
+
+    width:50%;
+    position: relative;
+    left: 105px;   
+
+}
+  
+
+
+.fotobanner{
+    width: 80%;
+    position: relative;
+    left:31px;
+    bottom: 5px
+
+}
+
+.main-nav {
+
+    position: relative;
+    left: 133px;
+
+}
+
+
+
+.photo{
+ width:80%;
+ position: relative;
+ left:31px;
+
+}
+
+.special {
+
+    position: relative;
+    right: 53px;
+    bottom: 82px;
+}
+
+
+
+.more {
+    position: relative;
+    left: 175px;
+    bottom: 5px;
+    
+
+}
+
+.zoom {
+
+    position: relative;
+    left: 155px;
+   
+
+}
+
+h2 {
+
+    text-align: center;
+}
+
+p {
+
+    margin-left: 20px;
+    text-align: center;
+}
+
+.main-footer {
+
+    position: relative;
+    left:142px;
+}
+
+@media (max-width:372px){
+
+    
+  .special {
+    position: relative;
+    left: 247px;
+    bottom: 147px;
+  }
+
+  .zoom{
+    position: relative;
+    left: 82px;
+  }
+}
+
+@media (max-width:355px){
+
+    
+    .special {
+        position: relative;
+        left: 224px;
+        bottom: 132px;
+    }
+  
+    .zoom{
+        position: relative;
+        left: 63px;
+        bottom: 43px;
+    }
+
+    .more {
+        position: relative;
+        left: 150px;
+        bottom: 5px;
+    }
+  }
+
+  @media (min-width: 769px){
+
+    .container {
+        max-width: 960px;
+    }
+
+    .vip-products{
+        overflow: hidden;
+
+
+    }
+  .product {
+      width:30% ;
+      float:left;
+  }
+  .special {
+    width: 25%;
+    left: 100px;
+    bottom: 54px;
+}
+
+.zoom{
+    position: relative;
+    left: -5px;
+    bottom: 16px;
+}
+
+.more {
+    position: relative;
+    left: 43px;
+    bottom: 5px;
+}
+
+h2 {
+
+    font-size: 0.9em;
+}
+p {
+
+    font-size: 0.9em;
+}
+  }
